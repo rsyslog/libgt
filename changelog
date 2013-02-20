@@ -1,5 +1,7 @@
 Version 0.3
 
+* add support for pkgconfig to build system
+
 2011-12-08 release (0.3.11)
 * Minor improvements in timestamp parsing.
 
