@@ -26,6 +26,7 @@ AC_INIT(libgt, 0.3.11, beta_support@guardtime.com)
 AC_CONFIG_AUX_DIR(config)
 
 AM_INIT_AUTOMAKE(libgt, 0.3.11)
+m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 # Checks for programs.
 AC_PROG_CC
@@ -41,4 +42,5 @@ AC_CHECK_LIB(crypto, SHA256_Init)
 
 # Checks for library functions.
 
+AC_CONFIG_MACRO_DIR([m4])
 AC_OUTPUT(GNUmakefile src/base/GNUmakefile src/http/GNUmakefile src/png/GNUmakefile doc/GNUmakefile)
