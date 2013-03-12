@@ -34,7 +34,7 @@ AUTOMAKE_OPTIONS = foreign
 
 SUBDIRS = src/base src/http src/png doc
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = gt.pc
+pkgconfig_DATA = libgt.pc
 
 
 dist_doc_DATA = changelog src/*.txt

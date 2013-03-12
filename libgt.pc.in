@@ -1,0 +1,11 @@
+# Copyright (C) 2013 by Rainer Gerhards
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libgt
+Description: GuardTime API
+Version: @VERSION@
+Libs: -L${libdir} -lgthttp -lgtbase -lcurl -lcrypto -lrt
+Cflags: -I${includedir}

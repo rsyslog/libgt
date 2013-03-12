@@ -42,6 +42,6 @@ AC_CHECK_LIB(crypto, SHA256_Init)
 
 # Checks for library functions.
 
-AC_CONFIG_FILES([gt.pc])
+AC_CONFIG_FILES([libgt.pc])
 AC_CONFIG_MACRO_DIR([m4])
 AC_OUTPUT(GNUmakefile src/base/GNUmakefile src/http/GNUmakefile src/png/GNUmakefile doc/GNUmakefile)
