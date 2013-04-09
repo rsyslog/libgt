@@ -33,8 +33,8 @@ AC_PROG_CC
 AC_PROG_LIBTOOL
 
 # Checks for libraries.
-AC_CHECK_LIB(curl, curl_global_init)
-AC_CHECK_LIB(crypto, SHA256_Init)
+AC_CHECK_LIB([crypto], [SHA256_Init], [], [AC_MSG_FAILURE([Could not find OpenSSL 0.9.8+ libraries])])
+AC_CHECK_LIB([curl], [curl_global_init], [], [AC_MSG_FAILURE([Could not find cURL libraries])])
 
 # Checks for header files.
 
