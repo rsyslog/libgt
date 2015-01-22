@@ -22,7 +22,7 @@
 #     aclocal && automake -a && autoconf
 #
 
-AC_INIT(libgt, 0.3.11, beta_support@guardtime.com)
+AC_INIT(libgt, 0.3.11.master, beta_support@guardtime.com)
 AC_CONFIG_AUX_DIR(config)
 
 AM_INIT_AUTOMAKE(libgt, 0.3.11)
